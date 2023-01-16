@@ -2,6 +2,7 @@ import serial.tools.list_ports
 from datetime import datetime
 import time
 
+
 def sendData(time):
     return (f"Az ido:;{current_time}\n").encode('utf-8')
 
